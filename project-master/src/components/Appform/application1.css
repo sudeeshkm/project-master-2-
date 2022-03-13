@@ -1,0 +1,173 @@
+/*
+.invalid {
+    border:1px solid red !important;
+   }
+   input, textarea {
+    outline: none !important;
+    box-shadow: none !important; 
+  }
+  
+   
+input[type=text], select {
+    width: 20%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+input[type=text], input {
+    width: 20%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; 
+}
+
+.form-group{
+	min-height : 2px;
+	position:relative;
+	perspective:100px;
+	transform-style:preserve-3d;
+}
+.form-group .group{
+	margin-bottom :115px;
+}
+.form-group .group .input,
+.form-group .group .button{
+	border:none;
+	padding:15px 20px;
+	border-radius:25px;
+	background:rgba(37, 37, 163, 0.1);
+}
+   
+.button{
+  border: rgb(37, 36, 36);
+  background-color: black;
+}*/
+
+
+*{
+  margin:0;
+  padding:0;
+}
+.applicationbody{
+display: flex;
+  justify-content: center;
+  text-align: center;
+  /* background-image: linear-gradient(90deg, rgb(130, 11, 160),rgb(11, 118, 160),rgb(11, 118, 160), rgb(20, 68, 172)); */
+  background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9);
+}
+.application{
+  width: 500px;
+height: 900px;
+  justify-content: center;
+align-items: center;
+background: rgb(36, 235, 235);
+overflow: hidden;
+border-radius: 10px;
+  margin-left: 25%;
+  margin-top: 1%;
+  margin-bottom: 100px;
+  padding:55px;
+  background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9);
+}
+#applicationtitle{
+color: rgb(58, 7, 245);
+font-size: 2.3em;
+justify-content: center;
+display: flex;
+font-weight: bold;
+
+}
+
+.applicationform input{
+width: 60%;
+height: 30px;
+background: #f5f8f8;
+justify-content: center;
+display: flex;
+  color: black;
+margin: 1px auto;
+padding: 5px;
+border: none;
+outline: none;
+border-radius: 5px;
+resize: vertical;
+}
+.applicationform input:hover{
+transition: ease-in 0.2s;
+  border: 2px solid rgb(3, 3, 3);
+}
+.applicationform label{
+font-size: 15px;
+  justify-content: center;
+display: flex;
+  color: black;
+  font-weight: bold;
+
+}
+.submitbutton{
+  width: 60%;
+height: 40px;
+margin: 10px auto;
+justify-content: center;
+display: block;
+color: #fff;
+background: #3004f5;
+font-size: 1em;
+font-weight: bold;
+margin-top: 20px;
+outline: none;
+border: none;
+border-radius: 5px;
+
+}
+.submitbutton:hover{
+transition: ease-in 0.2s;
+  border: 4px solid rgb(3, 3, 3);
+}
+#coursetype{
+  width: 61%;
+height: 30px;
+background: #f5f7f7;
+justify-content: center;
+display: flex;
+margin: 5px auto;
+padding: 0px;
+border: none;
+outline: none;
+border-radius: 5px;  
+}
+
+#coursetype:hover{
+transition: ease-in 0.2s;
+  border: 2px solid rgb(3, 3, 3);
+}
+.applicationimage{
+position: fixed;
+width: 400px;
+height: 200px;
+overflow: hidden;
+background-color: #f5f7f7;
+  margin-left: -20%;
+  margin-top: 15%;
+  margin-bottom: 100px;
+max-width: 100%;
+}
+
+@media screen and (max-width: 1200px) { 
+.applicationimage{ 
+ margin-left: 16%;
+ width: 250px;
+ height: auto;
+}
+.application{
+  margin-top: 40%;
+  position:sticky;
+}
+}

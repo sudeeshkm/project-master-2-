@@ -1,0 +1,18 @@
+body{
+    background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9);
+}
+.abutton {
+    /* float: right; */
+    height: 40px;
+    font-weight: bold;
+    font-size: 12px;
+    text-shadow: none;
+    min-width: 100px;
+    /* border-radius: 50px; */
+    line-height: 15px;
+    margin-top: 110px;
+    margin-right: -150px;
+    margin-bottom: -200px;
+    color: rgb(8, 8, 8);
+    background: #ff7d03;
+}
